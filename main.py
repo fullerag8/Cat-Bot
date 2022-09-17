@@ -22,9 +22,14 @@ def post_groupme_message(link):
     }
     requests.post(url, json = groupme_parameters)
 
-
+# Check app liveness
 @app.get('/live', status_code=200)
 def run_live():
     return "live"
+
+# Used by groupme url validation
+@app.head('/', status_code=200)
+def run_head():
+    return
 
 uvicorn.run(app, host="0.0.0.0", port=int(os.getenv('PORT')))
