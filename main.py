@@ -22,8 +22,9 @@ def post_groupme_message(link):
     }
     requests.post(url, json = groupme_parameters)
 
-uvicorn.run(app, host="0.0.0.0", port=int(os.getenv('PORT')))
 
 @app.get('/live', status_code=200)
 def run_live():
     return "live"
+
+uvicorn.run(app, host="0.0.0.0", port=int(os.getenv('PORT')))
