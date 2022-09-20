@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.post('/', status_code=200)
 def handle_groupme_message(text: str = Body(), sender_type: str = Body()):
-    if 'cat' in text and sender_type == 'user':
+    if 'cat' in text.lower() and sender_type == 'user':
         post_groupme_message(get_cat_pic())
         return 
 
