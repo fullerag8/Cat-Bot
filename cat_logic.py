@@ -1,7 +1,6 @@
 from random import randrange
 
 cat_links = [
-    'https://media.istockphoto.com/photos/closeup-portrait-of-funny-ginger-cat-wearing-sunglasses-isolated-on-picture-id1188445864?k=20&m=1188445864&s=612x612&w=0&h=0vuJeOxJr8Lu3Q1VdT1z7t6HcM8Oj7EVJe3CexGnH_8=', 
     'https://i.ytimg.com/vi/YSHDBB6id4A/maxresdefault.jpg',
     'https://i.ytimg.com/vi/317jz-PU7Mg/maxresdefault.jpg',
     'https://i.pinimg.com/736x/ba/92/7f/ba927ff34cd961ce2c184d47e8ead9f6.jpg', 
@@ -21,12 +20,29 @@ cat_links = [
     'https://wallpaper.dog/large/10737523.jpg', 
     'https://i2-prod.mirror.co.uk/incoming/article25609246.ece/ALTERNATES/s1200/0_PUSS-IN-BOOTS.jpg',
     'https://www.dogalize.com/wp-content/uploads/2017/05/funny-cat-img.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBKDk1bsxtgeI0lnNYdXOrlPaby-wxY7rFQ&usqp=CAU',
-    'https://media.istockphoto.com/photos/cat-surfing-on-internet-picture-id1172290687?k=20&m=1172290687&s=612x612&w=0&h=xINesZHX6C7C6PH5PfRx2cDn8d69o01osus3YjXq1QU=',
     'https://static.demilked.com/wp-content/uploads/2022/05/funny-pics-the-cat-trap-is-working-1.jpeg',
     'https://www.boredpanda.com/blog/wp-content/uploads/2022/08/funny-cat-pics-memes-630871ab120c3__700.jpg',
     'https://www.thehappycatsite.com/wp-content/uploads/2021/05/Funny-Cat-Names-HC-long.jpg',
-    'https://ae01.alicdn.com/kf/HTB1ZkKqaMkLL1JjSZFpq6y7nFXaI/Funny-Cat-Costumes-Pirate-Suit-Cat-Clothes-Kitty-Kitten-Corsair-Halloween-Costume-Puppy-Suits-Dressing-Up.jpg_Q90.jpg_.webp',
+    'https://www.incimages.com/uploaded_files/image/1920x1080/getty_513189787_110007.jpg',
+    'https://wallpaperaccess.com/full/428160.jpg',
+    'https://i.natgeofe.com/k/f3c81bbd-528e-4b3a-b61f-23d4e9582098/MOmeow2.png?w=636&h=358',
+    'https://media.glamour.com/photos/580e1fc08bd9950546d001f6/master/pass/giphy%20(11).gif',
+    'https://media.glamour.com/photos/580e1f31114e233c0c9c84fc/master/w_320%2Cc_limit/giphy%2520(7).gif',
+    'https://www.readersdigest.ca/wp-content/uploads/2021/03/funny-cat-gifs.gif',
+    'https://c.tenor.com/gsFeEP9xKh4AAAAM/cat-couple.gif',
+    'https://thumbs.gfycat.com/BouncyMatureGilamonster-size_restricted.gif', 
+    'http://www.whycatwhy.com/wp-content/uploads/2016/05/sheepish-kitten.gif',
+    'https://kittybloger.files.wordpress.com/2014/03/25-funny-cat-gifs-5.gif',
+    'https://media.glamour.com/photos/580e1dc07a52574c7ef91071/master/w_320%2Cc_limit/giphy%2520(1).gif',
+    'https://c.tenor.com/CWMrI0uGy84AAAAM/cucumber-cat.gif',
+    'https://sadanduseless.b-cdn.net/wp-content/uploads/2019/07/cat-vs-cucumber8.gif',
+    'https://moderncat.com/sites/default/files/images/uploads/MustHaveWater.gif',
+    'https://www.gifcen.com/wp-content/uploads/2022/04/cat-gif.gif',
+    'https://www.somepets.com/home/sites/10a/1/11ad8aabe7/public_html/wp-content/uploads/2013/09/hilarious-cat-gifs.gif',
+    'https://theverybesttop10.com/wp-content/uploads/2018/04/Ten-of-the-Funniest-Endless-Looping-Cat-Gifs-You-Will-See-9-2-1-2-2-2-2-4-3-1-1-1-2-1-2-2-1-1.gif',
+    'https://imgix.bustle.com/uploads/image/2018/10/29/f4c3a7c8-fc5d-4fa0-9676-f85360fa2f22-fotolia_190928973_subscription_monthly_m.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg',
+    'https://piximus.net/media/21106/cute-cat-gifs-1.gif',
+    'https://piximus.net/media/21106/cute-cat-gifs-3.gif',
 ]
 
 def get_cat_pic():
